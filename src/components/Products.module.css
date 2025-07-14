@@ -1,0 +1,29 @@
+.products {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .horizontalContainer {
+    display: flex;
+    width: 300vw; /* 3 products * 100vw */
+  }
+
+  .product {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lottie {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title {
+    font-size: 2rem;
+    color: #1B1B1B;
+    margin-top: 1rem;
+  }

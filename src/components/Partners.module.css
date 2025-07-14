@@ -1,0 +1,33 @@
+.partners {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1B1B1B;
+  }
+
+  .logoGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .logo img {
+    max-width: 120px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .logo img:hover {
+    filter: grayscale(0%);
+  }
